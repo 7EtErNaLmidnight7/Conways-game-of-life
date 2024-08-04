@@ -35,7 +35,7 @@ def update_cells(cells):
 
 board_height = int(input("Enter height of board: "))
 board_length = int(input("Enter length of board: "))
-cells = [[0] * board_length for _ in range(board_height)]
+cells = [[0] * board_length for _ in range(board_height)] # I genuinely do not understand this
 
 while True:
     startX = int(input("Enter X: "))
